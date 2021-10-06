@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samsil Arefin Mozumder</title>
+    <link
+      rel="shortcut icon"
+      href="images/Group 33091 (1).png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/dc02adfae0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="bg-dark">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand"
+            target="blank"
+            href="https://www.linkedin.com/in/samsil-arefin-mozumder-20b20a14b"
+            ><button class="btn bg-primary text-white btn-hover">
+              <span class="fs-4 fw-bolder">Linked</span>
+              <i class="fab fa-linkedin fs-4"></i></button
+          ></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active btn-hover ms-4"
+                  aria-current="page"
+                  href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active btn-hover ms-4" href="#projects"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active btn-hover ms-4" href="#small-projects"
+                  >Small Projecst</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active btn-hover ms-4" href="#contact"
+                  >Contact me</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container text-white">
+      <div id="home" class="row align-item-center">
+        <div class="col-lg-6 me-auto">
+          <img class="w-100" src="images/Group 33091 (1).png" alt="" />
+        </div>
+
+        <div class="col-lg-6 p-4 ms-auto mt-4">
+          <h1 class="text-white mb-4 fw-bolder">
+            Welcome to <br />
+            <span class="text-warning">Samsil Arefin Mozumder</span>
+            Protfolio
+          </h1>
+
+          <h5>Introduction</h5>
+          <p>
+            I am an electronics and computer enthusiast who loves building new
+            things and tweaking devices. Embedded system designing is one of my
+            strong fields. I have worked on numerous electronics projects. I
+            also have good grasp of knowledge on Robotics.
+          </p>
+
+          <!-- CV download Button -->
+          <a
+            target="_blank"
+            href="Curriculum-Vitae-converted.pdf"
+            download="Samsil Arefin Mozumder's CV"
+          >
+            <button class="text-white fw-bold btn bg-primary btn-hover">
+              <i class="fas fa-file-download"></i> Download my CV
+            </button></a
+          >
+        </div>
+      </div>
+
+      <!------------------
+             Project Card Area  
+          ----------------------->
+
+      <div id="projects">
+        <h1 class="my-4">My Projects</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4 text-black">
+          <div class="col">
+            <div class="card h-100 single-card rounded-2">
+              <img
+                src="images/project/Bio floc.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Smart IoT Biofloc System (On going for conference)
+                </h5>
+                <p class="card-text">
+                  In this project 4 sensor (pH,TDS,NH3,Temperature) has been
+                  used to monitoring all the parameters of water. The values
+                  shared in server through firebase and a 20*4 LCD is for real
+                  time monitoring. From firebase the values shows in a android
+                  app. The app consist of 5 parameter
+                  (pH,TDS,EC,Temperature,NH3) and 3 switches (Heater ,Pump,
+                  Servo). The servo has been used for make the sensor up & down
+                  in water to take reading from them and other 2 switches to
+                  activate heater and supply water to make balance in water
+                  parameters.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 single-card rounded-2">
+              <img
+                src="images/project/Rubik's cube.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Rubik's Cube Solver Robot</h5>
+                <p class="card-text">
+                  Hardware: Arduino,MG996R Metal Gear Servos and Mechanical
+                  Push, Bucket and Hold hand. Via Python by using a GUI,6 Side’s
+                  Colors of the cube input. The GUI solve the cube by Kociemba
+                  algorithm and send signals to the arduino to produce the PWM
+                  for the Servos to solve the Rubik’s Cube.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 single-card rounded-2">
+              <img
+                src="images/project/Face mask Detection.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Face Mask Detection Based Automatic Gate
+                </h5>
+                <p class="card-text">
+                  “Face Mask Detection Based Automatic Gate” is an embedded
+                  system that works based on google teachable machine.It is a
+                  machine learning online tool for everyone. By providing some
+                  image samples can make the tool understand two deferent types
+                  of pictures by a simple training and make a model link. In
+                  this project ESP32 Camera Module used which is connected to
+                  the internet through it’s built in Wifi. Attach the model link
+                  in ESP32 Cam and take some images and analyse at teachable
+                  machine for make a decision. After making decision it informs
+                  the Arduino to open the gate and show some indication related
+                  to gate on LCD and LED.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card single-card h-100 rounded-2">
+              <img
+                src="images/project/Face recog.PNG"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Face Recognition & Temperature Detection Based Automatic Gate
+                </h5>
+                <p class="card-text">
+                  Here esp32 Cam has been used to detect face and recognize
+                  faces moreover an arduino in used for to take reading from
+                  MLX90614 IR temperature sensor. When sensor reading in between
+                  safe limit and face also familiar then the servos open gate.
+                </p>
+                <!-- <p>
+                  “Face Mask Detection Based Automatic Gate” is an embedded
+                  system that works based on google teachable machine.It is a
+                  machine learning online tool for everyone. By providing some
+                  image samples we can make the tool understand two deferent
+                  types of pictures by a simple training and make a model link.
+                  In this project we used ESP32 Camera Module which is connected
+                  to the internet through it’s built in Wifi. Attach the model
+                  link in ESP32 Cam and take some images and analyse at
+                  teachable machine for make a decision. After making decision
+                  it informs the Arduino to open the gate and show some
+                  indication related to gate on LCD and LED.
+                </p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 single-card rounded-2">
+              <img
+                src="images/project/Bottle fill.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Automatic Bottle Filling System</h5>
+                <p class="card-text">
+                  Hardwares: IR sensor,Gear Motor,Water pump,Arduino ,Relay ,LCD
+                  Push Button. Push Buttons are used to set the pump on time and
+                  start stop and digit selection. After Putting the bottle on
+                  the conveyor when the sensor detect conveyor stops and pump
+                  starts to flow water in the bottle and wait a moment for the
+                  drops of water and start running conveyor and stops again in
+                  front of another sensor to take the bottle from conveyor.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 single-card rounded-2">
+              <img
+                src="images/project/Voice Control Robot.PNG"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Voice Control Robot</h5>
+                <p class="card-text">
+                  With 5 Commands the robot works these are (Go ,Back, Turn Left
+                  ,Turn Right & Stop) Hardware: Arduino Uno ,Bluetooth Module
+                  HC-05,L298N. One android app is used to provide voice and the
+                  commands activate the functions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 single-card rounded-2">
+              <img
+                src="images/project/Campus automation.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Campus Automation</h5>
+                <p class="card-text">
+                  Hardwares: Arduino Pro mini, Ultrasonic Sensor, Blue tooth
+                  Module, 4-Channel Relay Module,Servo motors, MLX-90614
+                  sensor,MQ-2 Smoke sensor,Buzzer,20*4 I2C LCD,PIR sensor,Pump,
+                  IR Sensor, Switching Circuit.This is a special project for
+                  covid situation.It is divided into 5 portions. No.1 It’s
+                  senses the temperature of human from distance without any
+                  touch by MLX-90614 and if the temperature is normal(Less than
+                  98.6° F) then it opens the gate of campus otherwise it makes
+                  sound and do not open the gate. No.2 For Sanitization a
+                  touchless activated water tap implemented by IR sensor,
+                  Switching circuit and pump. No.3 A touchless dustbin it detect
+                  human hand by ultrasonic sensor and open/close the cover with
+                  the help of metal gear servo. No.4 Voice Control class room
+                  automation by android app> Bluetooth >Arduino>Relay
+                  Module>Loads. No.5 Smoke Detection by MQ-2 and make beep sound
+                  when smoke/gas Detected.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 single-card rounded-2">
+              <img
+                src="images/project/CNC (2).jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Mini CNC Plotter</h5>
+                <p class="card-text">
+                  Hardwares: Stepper Motor, Motor Driver ,Arduino, Buck
+                  Converter. By the processing software instructions are send to
+                  the plotter from PC and it starts plot the file.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 single-card rounded-2">
+              <img
+                src="images/project/iot weather.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">IoT weather Station</h5>
+                <p class="card-text">
+                  Hardware: LDR,DHT11,BMP180,ESP32.ESP32 Takes five reading from
+                  those sensors. There are Luminosity,Altitude,Atmospheric
+                  pressure,Humidity and Temperature.This values are display in a
+                  IP address.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 single-card rounded-2">
+              <img
+                src="images/project/heat shirk (2).jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Heat Shrink Tube Cutter Machine Modification
+                </h5>
+                <p class="card-text">
+                  This is a safety improvement. At this machine it has a safety
+                  cover which is removable but it can be open when the machine
+                  is cutting tubes , so it has a chance to cut finger. Hardware
+                  : 2N3904 BJT,555 Timer IC,Relay,Limit Switch. Here Made a
+                  logic by relays and a beep sound (1Hz) when the cover is open.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 single-card rounded-2">
+              <img
+                src="images/project/bend check.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Bend Product Check Tester</h5>
+                <p class="card-text">
+                  Hardware :2N3904 BJT ,Resistors,Diode,Fibre Sensor,Limit
+                  Switch.Some of our product found bended in japan. So I
+                  designed a tester which can detect minimum 1.2mm bend of the
+                  product. I Designed this circuitry only using BJT and
+                  implemented NO,NC action. When there is not have any product
+                  on tester then Yellow Lamp is ON,When put the product at the
+                  tester then, yellow lamp become off and decision is given by
+                  the tester by the Green lamp or Red lamp and Buzzer.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Small Projects  -->
+      <div id="small-projects" class="my-4">
+        <h1 class="my-4">My Small Projects</h1>
+        <h6>>> Digital Height Measuring Device</h6>
+        <h6>>> Level Sensing Device</h6>
+        <h6>>> Obstacle Avoiding Robot</h6>
+        <h6>>> Gas Leakage Detection Device</h6>
+        <h6>>> Temperature & Humidity Monitoring System</h6>
+        <h6>>> GSM Based Irrigation System</h6>
+        <h6>>> IoT Home Automation</h6>
+        <h6>>> Smart Basin,Dustbin,Door</h6>
+      </div>
+
+      <!-- Photo Slider -->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide w-50 mx-auto my-4 border rounded-3"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="gallery/photo/pic-1.jpg"
+              class="d-block w-100 border rounded-3"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="gallery/photo/pic-10.jpg"
+              class="d-block w-100 border rounded-3"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="gallery/photo/pic-11.jpg"
+              class="d-block w-100 border rounded-3"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Gallery Button  -->
+
+      <div class="text-center">
+        <a target="blank" href="gallery/gallery.html">
+          <button class="btn bg-warning text-black btn-hover">
+            <span class="fs-3 fw-bolder">Go to my photo Gallery</span>
+            <i class="fas fa-images fs-3"></i></button
+        ></a>
+      </div>
+    </main>
+
+    <!-- Footer section  -->
+    <footer id="contact" class="bg-secondary">
+      <div class="p-4 my-4 mx-auto text-center text-white">
+        <h3>Contact With Me</h3>
+        <p>
+          <span class="text-white"
+            ><i class="fas fa-envelope-square"> Email:</i></span
+          >
+          samsilarefin313@gmail.com
+        </p>
+        <p>
+          <span class="text-white"
+            ><i class="fas fa-mobile-alt"> Mobile:</i></span
+          >
+          +8801674056506
+        </p>
+        <a
+          target="blank"
+          href="https://www.linkedin.com/in/samsil-arefin-mozumder-20b20a14b"
+        >
+          <button class="btn bg-primary text-white btn-hover">
+            <span class="fs-3 fw-bolder">Linked</span>
+            <i class="fab fa-linkedin fs-3"></i></button
+        ></a>
+
+        <p class="my-4">© 2021. All rights reserved</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap js link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

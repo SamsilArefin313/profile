@@ -1,0 +1,17 @@
+.btn-hover:hover {
+    box-shadow: 4px 4px 10px rgb(250, 249, 249);
+    border-radius: 10px;
+    border: 1px solid cyan;
+    transform: scale(1.01);
+}
+
+
+.single-card:hover {
+    box-shadow: 4px 4px 15px rgb(250, 249, 249);
+    border-radius: 10px;
+    border: 1px solid rgb(255, 0, 255);
+    /* transform: scale(1.02); */
+}
+
+
+
