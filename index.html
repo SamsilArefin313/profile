@@ -58,7 +58,7 @@
         <h1 class="text-white mb-4 fw-bolder">
           Welcome to <br />
           <span class="text-warning">Samsil Arefin Mozumder</span>
-          Protfolio
+          Profile
         </h1>
 
         <h5>Introduction</h5>
@@ -113,11 +113,13 @@
             <div class="card-body">
               <h5 class="card-title">Rubik's Cube Solver Robot</h5>
               <p class="card-text">
-                Hardware: Arduino,MG996R Metal Gear Servos and Mechanical
-                Push, Bucket and Hold hand. Via Python by using a GUI,6 Side’s
-                Colors of the cube input. The GUI solve the cube by Kociemba
-                algorithm and send signals to the arduino to produce the PWM
-                for the Servos to solve the Rubik’s Cube.
+                This robot has been made for solve rubik’s cube. The body is made up of PVC board and
+                wood.There are two programming languages used to program it these are python and C++. The
+                GUI, Kociemba algorithm and instructions which provides signal to the arduino to operate the
+                servo is python. On the other side arduino receive them from PC and rotate servos
+                accordingly. It has 3 servo push, hold & rotate. A vibration motor also used to manipulate the
+                moves wisely.
+
               </p>
             </div>
           </div>
@@ -125,23 +127,15 @@
 
         <div class="col">
           <div class="card h-100 single-card rounded-2">
-            <img src="images/project/Face mask Detection.jpg" class="card-img-top" alt="..." />
+            <img src="images/project/iot weather.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">
-                Face Mask Detection Based Automatic Gate
-              </h5>
+              <h5 class="card-title">IoT weather Station</h5>
               <p class="card-text">
-                “Face Mask Detection Based Automatic Gate” is an embedded
-                system that works based on google teachable machine.It is a
-                machine learning online tool for everyone. By providing some
-                image samples can make the tool understand two deferent types
-                of pictures by a simple training and make a model link. In
-                this project ESP32 Camera Module used which is connected to
-                the internet through it’s built in Wifi. Attach the model link
-                in ESP32 Cam and take some images and analyse at teachable
-                machine for make a decision. After making decision it informs
-                the Arduino to open the gate and show some indication related
-                to gate on LCD and LED.
+                Hardware: LDR, DHT11, BMP180 and ESP32. ESP32. From the sensors system takes five
+                Readings these are light intensity, atmospheric pressure, temperature and humidity. Using html
+                language in ardunio coding and IP interface has been implemented, which displays
+                Luminosity, Altitude, Atmospheric pressure, Humidity & Temperature. This values are displays
+                In IP address pasting in any devices connected to common router.
               </p>
             </div>
           </div>
@@ -160,22 +154,10 @@
                 MLX90614 IR temperature sensor. When sensor reading in between
                 safe limit and face also familiar then the servos open gate.
               </p>
-              <!-- <p>
-                  “Face Mask Detection Based Automatic Gate” is an embedded
-                  system that works based on google teachable machine.It is a
-                  machine learning online tool for everyone. By providing some
-                  image samples we can make the tool understand two deferent
-                  types of pictures by a simple training and make a model link.
-                  In this project we used ESP32 Camera Module which is connected
-                  to the internet through it’s built in Wifi. Attach the model
-                  link in ESP32 Cam and take some images and analyse at
-                  teachable machine for make a decision. After making decision
-                  it informs the Arduino to open the gate and show some
-                  indication related to gate on LCD and LED.
-                </p> -->
             </div>
           </div>
         </div>
+
         <div class="col">
           <div class="card h-100 single-card rounded-2">
             <img src="images/project/Bottle fill.jpg" class="card-img-top" alt="..." />
@@ -241,9 +223,16 @@
             <div class="card-body">
               <h5 class="card-title">Mini CNC Plotter</h5>
               <p class="card-text">
-                Hardwares: Stepper Motor, Motor Driver ,Arduino, Buck
-                Converter. By the processing software instructions are send to
-                the plotter from PC and it starts plot the file.
+                In this project the structure is made up of metal and acrylic.
+                Stepper housings are from broken DVD drives.
+                Z axis is a pen which can move the nib vertically,
+                it is a modified pen. X and Y axis can move by the use of stepper motor.
+                Two drivers used to control them.
+                From MIT processing software the writable files are sent to arduino through serial communication and
+                plot according to the file orientation.
+                Stepper and servo mechanisms are electrically connected through arduino.
+                It takes much high amount of current. The acrylic base made the whole structure nice and precise.
+
               </p>
             </div>
           </div>
@@ -251,18 +240,30 @@
 
         <div class="col">
           <div class="card h-100 single-card rounded-2">
-            <img src="images/project/iot weather.jpg" class="card-img-top" alt="..." />
+            <img src="images/project/Face mask Detection.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">IoT weather Station</h5>
+              <h5 class="card-title">
+                Face Mask Detection Based Automatic Gate
+              </h5>
               <p class="card-text">
-                Hardware: LDR,DHT11,BMP180,ESP32.ESP32 Takes five reading from
-                those sensors. There are Luminosity,Altitude,Atmospheric
-                pressure,Humidity and Temperature.This values are display in a
-                IP address.
+                “Face Mask Detection Based Automatic Gate” is an embedded
+                system that works based on google teachable machine.It is a
+                machine learning online tool for everyone. By providing some
+                image samples can make the tool understand two deferent types
+                of pictures by a simple training and make a model link. In
+                this project ESP32 Camera Module used which is connected to
+                the internet through it’s built in Wifi. Attach the model link
+                in ESP32 Cam and take some images and analyse at teachable
+                machine for make a decision. After making decision it informs
+                the Arduino to open the gate and show some indication related
+                to gate on LCD and LED.
               </p>
             </div>
           </div>
         </div>
+
+
+
         <div class="col">
           <div class="card h-100 single-card rounded-2">
             <img src="images/project/heat shirk (2).jpg" class="card-img-top" alt="..." />
@@ -304,14 +305,13 @@
     <!-- Small Projects  -->
     <div id="small-projects" class="my-4">
       <h1 class="my-4">My Small Projects</h1>
-      <h6>>> Digital Height Measuring Device</h6>
-      <h6>>> Level Sensing Device</h6>
-      <h6>>> Obstacle Avoiding Robot</h6>
-      <h6>>> Gas Leakage Detection Device</h6>
-      <h6>>> Temperature & Humidity Monitoring System</h6>
-      <h6>>> GSM Based Irrigation System</h6>
-      <h6>>> IoT Home Automation</h6>
-      <h6>>> Smart Basin,Dustbin,Door</h6>
+      <h6><span class="text-warning">GSM Based Irrigation System</span></h6>
+      <h6><span class="text-warning">Height Measuring Instrument</span></h6>
+      <h6><span class="text-warning">Gas Leakage Detection Device</span></h6>
+      <h6><span class="text-warning">Level Sensing Device</span></h6>
+      <h6><span class="text-warning">Obstacle Avoiding Robot</span></h6>
+      <h6><span class="text-warning">Smart Basin,Dustbin,Door</span></h6>
+      <h6><span class="text-warning">IoT Home Automation</span></h6>
     </div>
 
     <!-- Photo Slider -->
