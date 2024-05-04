@@ -168,16 +168,15 @@
             <div class="card-body">
               <h5 class="card-title">LoRaComm: Ultrasonic Sensor Network for Real-Time Monitorin</h5>
               <p class="card-text">
-                The system is designed with a sender unit that is equipped with 
-                two ultrasonic sensors and one potentiometer, all of which are 
-                connected to an STM32 microcontroller. This sender unit also 
-                incorporates a 1278 LoRa module for long-range communication. 
-                On the receiving end, there is another LoRa module that is 
-                connected to a separate STM32 microcontroller. This configuration
-                allows the receiver to effectively capture and process the data 
-                transmitted by the sender. Finally, the received values are 
-                displayed in Modscan through a TTL to Modbus module, ensuring 
-                seamless communication.
+                The system features a sender unit equipped with two ultrasonic 
+                sensors and a potentiometer, all connected to an STM32 
+                microcontroller. This unit also includes a 1278 LoRa module 
+                for long-range communication. A separate STM32 microcontroller
+                on the receiving end is connected to another LoRa module. This 
+                setup enables effective data capture and processing by the 
+                receiver. The received values are then displayed in Modscan. 
+                This is made possible through a TTL to Modbus module, 
+                ensuring seamless communication.
               </p>
             </div>
           </div>
@@ -189,22 +188,23 @@
             <div class="card-body">
               <h5 class="card-title">Campus Automation</h5>
               <p class="card-text">
-                Hardwares: Arduino Pro mini, Ultrasonic Sensor, Blue tooth
-                Module, 4-Channel Relay Module,Servo motors, MLX-90614
-                sensor,MQ-2 Smoke sensor,Buzzer,20*4 I2C LCD,PIR sensor,Pump,
-                IR Sensor, Switching Circuit.This is a special project for
-                covid situation.It is divided into 5 portions. No.1 It’s
-                senses the temperature of human from distance without any
-                touch by MLX-90614 and if the temperature is normal(Less than
-                98.6° F) then it opens the gate of campus otherwise it makes
-                sound and do not open the gate. No.2 For Sanitization a
-                touchless activated water tap implemented by IR sensor,
-                Switching circuit and pump. No.3 A touchless dustbin it detect
-                human hand by ultrasonic sensor and open/close the cover with
-                the help of metal gear servo. No.4 Voice Control class room
-                automation by android app> Bluetooth >Arduino>Relay
-                Module>Loads. No.5 Smoke Detection by MQ-2 and make beep sound
-                when smoke/gas Detected.
+                This project, designed specifically for the COVID-19 situation,
+                utilizes a variety of hardware components including an Arduino 
+                Pro Mini, Ultrasonic Sensor, Bluetooth Module, 4-Channel Relay 
+                Module, Servo Motors, MLX-90614 Sensor, MQ-2 Smoke Sensor, Buzzer,
+                20*4 I2C LCD, PIR Sensor, Pump, IR Sensor, and a Switching Circuit.
+                The project is divided into five key sections. The first section
+                uses the MLX-90614 sensor to detect human temperature from a distance.
+                If the temperature is below 98.6°F, the campus gate opens; otherwise, 
+                a sound is emitted and the gate remains closed. The second section is
+                a touchless water tap for sanitization, activated by an IR sensor and
+                controlled by a switching circuit and pump. The third section is a 
+                touchless dustbin that uses an ultrasonic sensor to detect a human hand
+                and a metal gear servo to open and close the cover. The fourth section
+                is a voice-controlled classroom automation system that uses an Android app, 
+                Bluetooth, Arduino, Relay Module, and loads. The final section is a smoke
+                detection system that uses the MQ-2 sensor to detect smoke or gas and
+                emits a beep sound when detected.
               </p>
             </div>
           </div>
@@ -218,17 +218,15 @@
                 Face Mask Detection Based Automatic Gate
               </h5>
               <p class="card-text">
-                “Face Mask Detection Based Automatic Gate” is an embedded
-                system that works based on google teachable machine.It is a
-                machine learning online tool for everyone. By providing some
-                image samples can make the tool understand two deferent types
-                of pictures by a simple training and make a model link. In
-                this project ESP32 Camera Module used which is connected to
-                the internet through it’s built in Wifi. Attach the model link
-                in ESP32 Cam and take some images and analyse at teachable
-                machine for make a decision. After making decision it informs
-                the Arduino to open the gate and show some indication related
-                to gate on LCD and LED.
+                The “Face Mask Detection Based Automatic Gate” is an embedded system that
+                leverages Google’s Teachable Machine, an accessible online machine learning 
+                tool. By training the tool with various image samples, it can distinguish 
+                between two different types of images and generate a model link. The ESP32 
+                Camera Module, which is internet-enabled via built-in WiFi, is used in this 
+                project. The model link is integrated into the ESP32 Cam, which captures 
+                images for analysis by the Teachable Machine. Upon making a decision, the
+                system communicates with the Arduino to open the gate and displays relevant
+                gate indicators on an LCD and LED.
               </p>
             </div>
           </div>
@@ -240,12 +238,14 @@
             <div class="card-body">
               <h5 class="card-title">Rubik's Cube Solver Robot</h5>
               <p class="card-text">
-                This robot has been made for solve rubik’s cube. The body is made up of PVC board and
-                wood.There are two programming languages used to program it these are python and C++. The
-                GUI, Kociemba algorithm and instructions which provides signal to the arduino to operate the
-                servo is python. On the other side arduino receive them from PC and rotate servos
-                accordingly. It has 3 servo push, hold & rotate. A vibration motor also used to manipulate the
-                moves wisely.
+                This robot, designed to solve a Rubik’s cube, is constructed from PVC
+                board and wood. It’s programmed using two languages: Python and C++. 
+                The graphical user interface (GUI), the Kociemba algorithm, and the 
+                instructions that signal the Arduino to operate the servo are all written 
+                in Python. The Arduino, in turn, receives these signals from the PC and 
+                rotates the servos as instructed. The robot is equipped with three servos: 
+                push, hold, and rotate. Additionally, a vibration motor is utilized to 
+                intelligently manipulate the cube’s movements.
 
               </p>
             </div>
@@ -258,11 +258,15 @@
             <div class="card-body">
               <h5 class="card-title">IoT weather Station</h5>
               <p class="card-text">
-                Hardware: LDR, DHT11, BMP180 and ESP32. ESP32. From the sensors system takes five
-                Readings these are light intensity, atmospheric pressure, temperature and humidity. Using html
-                language in ardunio coding and IP interface has been implemented, which displays
-                Luminosity, Altitude, Atmospheric pressure, Humidity & Temperature. This values are displays
-                In IP address pasting in any devices connected to common router.
+                The system is equipped with several hardware components: an LDR,
+                DHT11, BMP180, and ESP32. These sensors allow the system to take
+                five different readings: light intensity, atmospheric pressure, 
+                temperature, and humidity. The data from these sensors is processed 
+                using Arduino code written in HTML. An IP interface has been 
+                implemented to display the readings, which include luminosity,
+                altitude, atmospheric pressure, humidity, and temperature. These 
+                values can be accessed by pasting the IP address into any device
+                connected to a common router.
               </p>
             </div>
           </div>
@@ -276,10 +280,14 @@
                 Face Recognition & Temperature Detection Based Automatic Gate
               </h5>
               <p class="card-text">
-                Here esp32 Cam has been used to detect face and recognize
-                faces moreover an arduino in used for to take reading from
-                MLX90614 IR temperature sensor. When sensor reading in between
-                safe limit and face also familiar then the servos open gate.
+                In this system, an ESP32 Cam is used for face detection and 
+                recognition. Alongside this, an Arduino is employed to gather
+                readings from the MLX90614 IR temperature sensor. This sensor
+                measures temperature and ensures it falls within a safe limit.
+                The system also checks if the detected face is recognized. If
+                both conditions are met - the temperature is within the safe 
+                range and the face is familiar - then the servos are activated
+                to open the gate.
               </p>
             </div>
           </div>
@@ -291,13 +299,16 @@
             <div class="card-body">
               <h5 class="card-title">Automatic Bottle Filling System</h5>
               <p class="card-text">
-                Hardwares: IR sensor,Gear Motor,Water pump,Arduino ,Relay ,LCD
-                Push Button. Push Buttons are used to set the pump on time and
-                start stop and digit selection. After Putting the bottle on
-                the conveyor when the sensor detect conveyor stops and pump
-                starts to flow water in the bottle and wait a moment for the
-                drops of water and start running conveyor and stops again in
-                front of another sensor to take the bottle from conveyor.
+                The system is equipped with several hardware components: an 
+                IR sensor, a gear motor, a water pump, an Arduino, a relay, 
+                an LCD, and push buttons. The push buttons are used to set the 
+                pump’s operation time, start and stop the system, and select digits.
+                When a bottle is placed on the conveyor, the sensor detects it, 
+                causing the conveyor to stop and the pump to start filling the 
+                bottle with water. The system then pauses briefly to allow for water 
+                droplets to fall before the conveyor starts running again. It stops
+                once more when it reaches another sensor, which signals that the 
+                bottle can be removed from the conveyor.
               </p>
             </div>
           </div>
@@ -309,10 +320,13 @@
             <div class="card-body">
               <h5 class="card-title">Voice Control Robot</h5>
               <p class="card-text">
-                With 5 Commands the robot works these are (Go ,Back, Turn Left
-                ,Turn Right & Stop) Hardware: Arduino Uno ,Bluetooth Module
-                HC-05,L298N. One android app is used to provide voice and the
-                commands activate the functions.
+                The robot operates based on five commands: Go, Back, Turn Left,
+                Turn Right, and Stop. The hardware components of this system 
+                include an Arduino Uno, a Bluetooth Module HC-05, and an L298N.
+                These components work together to enable the robot’s movements.
+                An Android app is used to provide voice commands to the robot.
+                Upon receiving these commands, the robot activates the corresponding
+                functions.
               </p>
             </div>
           </div>
@@ -326,15 +340,17 @@
             <div class="card-body">
               <h5 class="card-title">Mini CNC Plotter</h5>
               <p class="card-text">
-                In this project the structure is made up of metal and acrylic.
-                Stepper housings are from broken DVD drives.
-                Z axis is a pen which can move the nib vertically,
-                it is a modified pen. X and Y axis can move by the use of stepper motor.
-                Two drivers used to control them.
-                From MIT processing software the writable files are sent to arduino through serial communication and
-                plot according to the file orientation.
-                Stepper and servo mechanisms are electrically connected through arduino.
-                It takes much high amount of current. The acrylic base made the whole structure nice and precise.
+                This project features a structure composed of metal and acrylic. 
+                The stepper housings are repurposed from broken DVD drives. The 
+                Z-axis is represented by a modified pen that can move its nib
+                vertically. Movement along the X and Y axes is facilitated by 
+                the use of a stepper motor. Two drivers are employed to control
+                these movements. Writable files from MIT processing software are 
+                transmitted to the Arduino via serial communication and plotted
+                according to the file orientation. The stepper and servo mechanisms 
+                are electrically interconnected through the Arduino, drawing a significant 
+                amount of current. The entire structure is mounted on an acrylic base,
+                lending precision and aesthetic appeal to the design.
 
               </p>
             </div>
@@ -353,11 +369,14 @@
                 Heat Shrink Tube Cutter Machine Modification
               </h5>
               <p class="card-text">
-                This is a safety improvement. At this machine it has a safety
-                cover which is removable but it can be open when the machine
-                is cutting tubes , so it has a chance to cut finger. Hardware
-                : 2N3904 BJT,555 Timer IC,Relay,Limit Switch. Here Made a
-                logic by relays and a beep sound (1Hz) when the cover is open.
+                This project is a safety enhancement for a machine that has a 
+                removable safety cover. There’s a risk that the cover could be 
+                opened while the machine is cutting tubes, potentially leading
+                to finger injuries. The hardware components used include a 
+                2N3904 BJT, a 555 Timer IC, a relay, and a limit switch. A 
+                logic circuit has been designed using relays that triggers a
+                beep sound at 1Hz frequency when the cover is open. This audible 
+                alert serves as a safety feature to prevent accidents.
               </p>
             </div>
           </div>
@@ -368,14 +387,17 @@
             <div class="card-body">
               <h5 class="card-title">Bend Product Check Tester</h5>
               <p class="card-text">
-                Hardware :2N3904 BJT ,Resistors,Diode,Fibre Sensor,Limit
-                Switch.Some of our product found bended in japan. So I
-                designed a tester which can detect minimum 1.2mm bend of the
-                product. I Designed this circuitry only using BJT and
-                implemented NO,NC action. When there is not have any product
-                on tester then Yellow Lamp is ON,When put the product at the
-                tester then, yellow lamp become off and decision is given by
-                the tester by the Green lamp or Red lamp and Buzzer.
+                The hardware components used in this project include a 2N3904 BJT,
+                resistors, a diode, a fiber sensor, and a limit switch. This design 
+                was prompted by the discovery of some of our products being bent in
+                Japan. As a result, I developed a testing device capable of detecting
+                bends as small as 1.2mm in the product. The circuitry of this
+                tester was designed exclusively with BJTs and incorporates
+                both Normally Open (NO) and Normally Closed (NC) actions. 
+                In the absence of a product on the tester, a yellow lamp is illuminated.
+                However, when a product is placed on the tester, the yellow lamp turns off.
+                The tester then makes a decision, indicated by either a green or red lamp,
+                along with a buzzer. This system effectively identifies any product deformities
               </p>
             </div>
           </div>
