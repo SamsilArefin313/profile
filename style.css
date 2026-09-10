@@ -328,6 +328,20 @@ body.bg-dark {
     color: var(--text);
 }
 
+.project-doi {
+    display: inline-block;
+    margin-top: 0.4rem;
+    color: var(--accent);
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-underline-offset: 3px;
+}
+
+.project-doi:hover,
+.project-doi:focus-visible {
+    color: #8be0cf;
+}
+
 .small-project-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
